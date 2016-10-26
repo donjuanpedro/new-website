@@ -80,7 +80,7 @@ if (!$errName && !$errEmail && !$errMessage && !$errHuman) {
 	<!-- Menu -->
 	<nav class="menu" id="theMenu">
 		<div class="menu-wrap">
-			<h1 class="logo"><a href="index.html#home">W</a></h1>
+			<h1 class="logo"><a href="index.php#home">W</a></h1>
 			<i class="icon-remove menu-close"></i>
 			<a href="#home" class="smoothScroll">Home</a>
 			<a href="#about" class="smoothScroll">About</a>
@@ -101,8 +101,12 @@ if (!$errName && !$errEmail && !$errMessage && !$errHuman) {
 	<section id="home" name="home"></section>
 	<div id="headerwrap">
 		<div class="container">
-			<div class="logo">
-				<h3><a href="#">W</a></h3>
+			<div class="row">
+				<div class="col-xs-12">
+					<div class="logo">
+						<h3><a href="#">W</a></h3>
+					</div>
+				</div>
 			</div>
 			<br>
 			<div class="row">
@@ -111,7 +115,7 @@ if (!$errName && !$errEmail && !$errMessage && !$errHuman) {
 				<br>
 				<div class="col-lg-6 col-lg-offset-3">
           <div class="text-xs-center">
-            <img src="assets/img/walker.jpg" class="img-circle img-thumbnail" alt="...">
+            <img src="img/walker.JPG" class="img-circle img-thumbnail" alt="...">
           </div>
 				</div>
 			</div>
@@ -189,7 +193,7 @@ if (!$errName && !$errEmail && !$errMessage && !$errHuman) {
     <!-- Bootstrap core JavaScript
     ================================================== -->
     <!-- Placed at the end of the document so the pages load faster -->
-	<script src="assets/js/classie.js"></script>
+	<!-- <script src="assets/js/classie.js"></script> -->
     <script src="assets/js/bootstrap.min.js"></script>
     <script src="assets/js/smoothscroll.js"></script>
 	<script src="assets/js/main.js"></script>
